@@ -14,7 +14,7 @@ import yelp from '../api/yelp'
           },
         });
         setResults(response.data.businesses);
-        console.log(response.data.businesses);
+        // console.log(response.data.businesses);
       } catch (err) {
         console.log(err);
         setError("Something went wrong");

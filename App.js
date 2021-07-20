@@ -8,6 +8,7 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 import { Appbar } from "react-native-paper";
 
 import SearchScreen from './src/screens/SearchScreen'
+import ResultShowScreen from './src/screens/ResultShowScreen'
 
 /* export default function App() {
   return (
@@ -25,7 +26,8 @@ export default function App () {
   return (
     <NavigationContainer>
       <HomeStack.Navigator initialRouteName="Search">
-      <HomeStack.Screen name="Business Search" component={SearchScreen} />
+      <HomeStack.Screen name="Search" title="Business Search App" component={SearchScreen} />
+      <HomeStack.Screen name="ResultShow" title="Result Show" component={ResultShowScreen} />
       </HomeStack.Navigator>
     </NavigationContainer>
     

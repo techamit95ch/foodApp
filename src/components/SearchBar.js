@@ -23,11 +23,12 @@ export default SearchBar;
 
 const styles = StyleSheet.create({
   backGround: {
-    marginTop: 15,
+    // marginTop: 15,
+    margin: 15,
     backgroundColor: "#F0eeee",
     height: 50,
     borderRadius: 5,
-    marginHorizontal: 15,
+    // marginHorizontal: 15,
     flexDirection: "row",
   },
   inputStyle: {
